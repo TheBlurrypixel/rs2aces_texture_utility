@@ -9,7 +9,7 @@ if A_Args.Length() < 2
 ; param index starts at 1
 ; MsgBox % A_Args[1]
 
-ocioExe := "resources\ocio_apps\ocioconvert.exe"
+ocioExe := "resources\ocioconvert.exe"
 EnvGet, progData, PROGRAMDATA
 rsTextProc := progData . "\Redshift\bin\redshiftTextureProcessor.exe"
 
