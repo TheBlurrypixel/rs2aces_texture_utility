@@ -1,0 +1,5 @@
+Have testet the tool a little now, and a syntax that seems to work great is this.
+
+set OCIO=M:\aces_1.0.3\config.ocio
+
+“M:\ocioconvert\ocioconvert.exe” “M:\temp\tesImage.png” “Utility - sRGB - Texture” “M:\temp\tesImage.exr” “ACEScg”
