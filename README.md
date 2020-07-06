@@ -8,9 +8,11 @@ Usage:
 Make sure to set OCIO environment variable to your ACES OCIO config
 
 Use the following syntax:
-rs2aces_texture_utility.exe **profile string** **filename**
 
-Example
+**rs2aces_texture_utility.exe** *profile_string* *filename*
+
+The following example will convert an sRGB Tiff to an ACEScg rstexbin:
+
 ```
 rs2aces_texture_utility.exe "Utility - sRGB - Texture" output.tif
 ```
