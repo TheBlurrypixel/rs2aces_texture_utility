@@ -5,9 +5,7 @@ Michael Gochoco © 2020
 
 Usage:
 
-Make sure to set OCIO environment variable to your ACES OCIO config
-
-Use the following syntax:
+Redshift and ACES OCIO must be installed and OCIO environment variables defined.
 
 **rs2aces_texture_utility.exe** ***profile_string*** ***filename***
 
