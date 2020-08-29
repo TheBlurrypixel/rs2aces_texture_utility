@@ -12,6 +12,11 @@ Redshift and ACES OCIO must be installed and OCIO environment variables defined.
 The following example will convert an sRGB Tiff to an ACEScg rstexbin:
 
 ```
+SET OCIO="C:\Path\to\config.ocio"
+
 rs2aces_texture_utility.exe "Utility - sRGB - Texture" output.tif
 // Expected output: output.rstexbin
+
+rs2aces_texture_utility.exe "Utility - Linear - sRGB" outputHDR.hdr
+// Expected output: outputHDR.rstexbin
 ```
